@@ -9,7 +9,7 @@ export default {
   "menu": {
     "locale": true
   },
-  "title": "Ant Design Pro",
+  "title": "监控中心",
   "pwa": false,
   "iconfontUrl": ""
 }
