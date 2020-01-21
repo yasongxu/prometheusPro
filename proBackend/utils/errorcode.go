@@ -15,27 +15,27 @@ type ErrorCode struct {
 var ErrorCodes = []*ErrorCode{
 	&ErrorCode{
 		StatusCode: http.StatusBadRequest,
-		Code:       "cce.warning.InvalidParam",
+		Code:       "warning.InvalidParam",
 	},
 	&ErrorCode{
 		StatusCode: http.StatusNotFound,
-		Code:       "cce.warning.NoSuchObject",
+		Code:       "warning.NoSuchObject",
 	},
 	&ErrorCode{
 		StatusCode: http.StatusInternalServerError,
-		Code:       "cce.error.InternalServerError",
+		Code:       "error.InternalServerError",
 	},
 	&ErrorCode{
 		StatusCode: http.StatusBadRequest,
-		Code:       "cce.warning.MalformedJSON",
+		Code:       "warning.MalformedJSON",
 	},
 	&ErrorCode{
 		StatusCode: http.StatusConflict,
-		Code:       "cce.warning.AlreadyExist",
+		Code:       "warning.AlreadyExist",
 	},
 	&ErrorCode{
 		StatusCode: http.StatusForbidden,
-		Code:       "cce.warning.Unauthorized",
+		Code:       "warning.Unauthorized",
 	},
 }
 
