@@ -1,0 +1,65 @@
+@import '~antd/es/style/themes/default.less';
+
+.headerList {
+  margin-bottom: 4px;
+  :global {
+    .ant-descriptions-row > td {
+      padding-bottom: 8px;
+    }
+  }
+
+  .stepDescription {
+    position: relative;
+    left: 38px;
+    padding-top: 8px;
+    font-size: 14px;
+    text-align: left;
+
+    > div {
+      margin-top: 8px;
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.pageHeader {
+  :global {
+    .ant-page-header-heading-extra > * + * {
+      margin-left: 8px;
+    }
+    .ant-descriptions-row > td {
+      padding-bottom: 8px;
+    }
+    .ant-page-header-heading-extra {
+      flex-direction: column;
+    }
+  }
+
+  .card {
+    margin-bottom: 24px;
+  
+    :global {
+      .ant-legacy-form-item .ant-legacy-form-item-control-wrapper {
+        width: 100%;
+      }
+    }
+  }
+  .btn {
+    margin-top: 24px;
+  }
+  .moreInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: @screen-sm) {
+  .pageHeader {
+    :global {
+      .ant-pro-page-header-wrap-row {
+        flex-direction: column;
+      }
+    }
+  }
+}
